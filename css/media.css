@@ -1,0 +1,124 @@
+@media (max-width: 1700px) {
+    .menu{
+        height: 78px;
+        overflow: hidden;
+        transition: 0.5s;
+    }
+    .menu:hover{
+        height: 100%;
+    }
+    
+    .header{
+        padding-top: 100px;
+    }
+}
+
+@media (max-width: 991px){
+    .room__title{
+        margin-top: 50px;
+    }
+    
+    .room__box{
+        width: 96px;
+        right: -20px;
+    }
+    
+    .room__img-dining{
+        width: 96px;
+        left: -20px;
+    }
+    
+    .room__block-dining{
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 767px){
+    .header__nav-link{
+        margin-right: 10px;
+    }
+    
+    .main-logo__col{
+        margin-top: 25px;  
+    }
+    
+    .nav-pills .nav-link{
+        margin: 2px;
+    }
+}
+
+@media (max-width:660px){
+    .room__box{
+        width: 96px;
+        height: 80px;
+        right: -13px;
+    }
+    
+    .room__img-dining{
+        left: -13px;
+        right: 0;
+    }
+}
+
+@media (max-width: 513px){
+    .header__nav-link{
+        margin-right: 7px;
+    }
+}
+
+@media (max-width: 500px){
+    .room__title{
+        margin-top: 50px;
+    }
+    
+    .room__box{
+        right: 25px;
+    }
+    
+    .room__img-dining {
+        left: 25px;
+    }
+    
+    .header__nav{
+        flex-direction: column;
+    }
+    
+    .header__nav-login {
+        margin-bottom: 15px;
+    }
+    
+    .header__text-title{
+        width: 100%;
+        font-size: 40px;
+    }
+    
+    .off__number{
+        font-size: 50px;
+    }
+    
+    .off__title{
+        font-size: 35px;
+    }
+    
+    .form__title{
+        font-size: 35px;
+    }
+    
+    .room__title{
+        font-size: 35px;
+    }
+    
+    .menu__link {
+        width: 100%;
+        height: 80px;
+        font-size: 30px;
+    }
+    
+    .menu__ul {
+        margin-top: 40px;
+    }
+    
+    .menu {
+        width: 130px;
+    }
+}
